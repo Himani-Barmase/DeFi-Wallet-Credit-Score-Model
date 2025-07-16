@@ -37,3 +37,38 @@ score = (
     0.25 * (1 - liquidation_ratio) +
     0.25 * repay_score
 ) * 1000
+ Step 5: Visualization
+Generates a histogram of wallet credit scores.
+
+Score distribution is analyzed in analysis.md.
+
+Architecture Overview
+javascript
+Copy
+Edit
+GitHub ZIP → JSON → Pandas DataFrame → Feature Engineering → Scoring → Visualization & Analysis
+Requirements
+Python
+
+Pandas
+
+Seaborn
+
+Matplotlib
+
+Requests
+
+Zipfile, JSON, IO
+
+ Output
+A score between 0 and 1000 for each wallet
+
+Score distribution graph
+
+Behavioral analysis in analysis.md
+s
+score_wallets.py: Main script
+
+README.md: Project overview and pipeline
+
+analysis.md: Post-analysis of scored wallet
