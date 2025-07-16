@@ -1,4 +1,4 @@
-# DeFi-Wallet-Credit-Score-Model
+
 # DeFi Wallet Credit Score Model
 
 This project implements a credit scoring system for DeFi (Decentralized Finance) wallets based on their historical on-chain transaction behavior.
